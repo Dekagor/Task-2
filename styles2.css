@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ body {
+    min-height: 100vh;
+    background-image: url(design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+body ::before {
+    content: "";
+    background: linear-gradient(rgba(12, 18, 34, 0.75), rgba(32, 38, 55, 0.75));
+    position: absolute;
+    opacity: 6;
+
+}  
+header .title {
+    font-size: 35px;
+    font-family: cursive;
+    margin-top: 40px;
+    margin-left: 200px;
+    text-align: center;
+    float: left;
+
+}
+header .title a {
+    display: inline;
+}
+
+
+header a {
+    background: navy;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    margin: 0 15px 0 0;
+    float: right;
+
+
+}
+
+.navbar {
+    margin-top: 5px;
+    background: rgb(158, 158, 245);
+    height: 20px;
+}
+.verde {
+    margin-top: 5px;
+    height: 30px;
+    background: #50a21c;
+    border: 1.8px solid black;
+    box-shadow: 5px 5px 8px black;
+}
+
+.azul {
+    margin-top: 5px;
+    height: 30px;
+    background: #433aea;
+    border: 1.8px solid black;
+    box-shadow: 5px 5px 8px black;
+}
+
+.proximo { 
+    background: rgb(157, 103, 103);
+    width: 400px; 
+    border-radius: 15px; 
+    text-align: center; 
+    font-family: cursive; 
+    margin-top: 200px;
+    margin-left: 350px; 
+    -webkit-border-radius: 15px; 
+    -moz-border-radius: 15px; 
+    -ms-border-radius: 15px; 
+    -o-border-radius: 15px;
+}
+
+aside {
+    display: inline;
+    float: left;
+    height: 100px;
+    margin-left: 8px;
+
+
+}
+
+.event {
+    background: whitesmoke;
+    border: radius 15px;
+    display: inline;
+    float: right;
+    margin-top: 25px;
+    margin-right: 380px;
+    font-size: 20px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+}
+
+.about {
+    background: whitesmoke;
+    border: radius 15px;
+    display: inline-flexbox;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 50px;
+    font-family: cursive;
+    }
+
+.mail {
+    background: whitesmoke;
+    border: radius 15px;
+    display: inline;
+    float: right;
+    margin-top: 55px;
+    margin-right: 480px;
+    font-size: 20px;
+
+}
+        

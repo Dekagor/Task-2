@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-top: 3px;
+    background: url(design1_image2.jpg) no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 250px;
+    display: block;
+}
+
+
+header .title {
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 5px;
+    float: left;
+
+}
+header .title a {
+    display: inline;
+}
+
+
+header a {
+    background: navy;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    margin: 0 15px 0 0;
+    float: right;
+
+
+}
+
+.verde {
+    margin-top: 15px;
+    height: 40px;
+    background: #50a21c;
+    border: 1.8px solid black;
+    box-shadow: 5px 5px 8px black;
+}
+
+.azul {
+    margin-top: 15px;
+    height: 40px;
+    background: #433aea;
+    border: 1.8px solid black;
+    box-shadow: 5px 5px 8px black;
+}
+
+.proximo {
+background: whitesmoke;
+text-align: center;
+font-family: cursive;
+}
+
+aside {
+    background: red;
+    display: inline;
+    float: left;
+    margin-top: 350px;
+    margin-left: 25px;
+}
+
+.event {
+display: inline;
+float: right;
+margin-top: 25px;
+margin-right: 550px;
+font-size: 20px;
+}
+
+.about {
+    display: inline-flexbox;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 50px;
+    font-family: cursive;
+    }
+
+.mail {
+   display: inline;
+   float: right;
+   margin-top: 55px;
+   margin-right: 650px;
+   font-size: 20px;
+
+}
+        
